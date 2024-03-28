@@ -9,9 +9,12 @@ S Shakthi - 21i350
 Sreenitti S  - 21i360
 
 Problem Statement
+
 Title: Medical AI Assistant for Diagnosis and Preventive Healthcare with Enhanced Privacy Features 
+
 Description: 
 In the realm of healthcare, patients often face challenges in obtaining timely insights and accurate diagnoses based on their medical reports such as MRI scans and other diagnostic tests. Additionally, patients seek preventive measures and guidance on potential health risks based on their medical history and symptoms. However, accessing personalized medical advice and recommendations can be cumbersome and time-consuming. The objective of this hackathon challenge is to develop a robust web or app solution that serves as a Medical AI Assistant, providing patients with insightful diagnoses, preventive healthcare measures, and access to relevant medical resources while prioritizing the privacy and security of their sensitive medical records. 
+	
 Key Features: 
 1. Medical Report Analysis: Utilizes advanced image processing and machine learning to analyze MRI scans and other reports, providing accurate insights into medical conditions and potential risks.
  2. Personalized Recommendations: Offers tailored preventive healthcare measures and lifestyle suggestions based on medical history, symptoms, and risk factors, promoting overall well-being. 
@@ -22,7 +25,9 @@ Key Features:
 7. Continuous Learning: Incorporates feedback mechanisms to continuously improve diagnostic accuracy and recommendation capabilities over time. 8. Regulatory Compliance: Adheres to healthcare regulations like HIPAA, prioritizing patient confidentiality and privacy.
 
 
+
 Literature survey
+
 2.1 Revolutionizing healthcare: the role of artificial intelligence in clinical practice
 https://www.researchgate.net/publication/374116437_Revolutionizing_healthcare_the_role_of_artificial_intelligence_in_clinical_practice 
 Citation: Alowais, S.A., Alghamdi, S.S., Alsuhebany, N. et al. Revolutionizing healthcare: the role of artificial intelligence in clinical practice. BMC Med Educ 23, 689 (2023). https://doi.org/10.1186/s12909-023-04698-z
@@ -53,18 +58,21 @@ This study addresses the gap by identifying security and privacy threats and map
 
 Actual Dataset
 For image processing:
-    Brain MRI Images for Brain Tumor Detection is used for the classification of         the MRI images as Tumor/ Not Tumor.
-		About the dataset:
+    Brain MRI Images for Brain Tumor Detection is used for the classification of the MRI images as Tumor/ Not Tumor.
+		
+About the dataset:
 300 images for training and 300 images for testing
 
 	For personalized recommendations:
 
 Medical Transcripts
 We leveraged the GPT-3.5 model to generate 4.5k QA prompts from the medical transcripts (MTSamples dataset).
+
 WikiDoc
 WikiDoc is a platform for medical professionals to contribute and edit medical content.
 10k QnA prompts.
-WikiPatient
+
+WikiPatient:
 WikiPatient is a platform for patients to access information and education about diseases.
 5K QnA prompts.
 	For clinic referrals:
@@ -74,6 +82,7 @@ Source : https://www.kaggle.com/datasets/johndoggodata/cvs-minute-clinic-data
 Nearby hospital locator : Uses an external API to get location data based on the IP address and does not query a static dataset.
 
 Feature Engineering Pipeline
+
 1. Data Acquisition:
 MRI Scans: Securely acquire anonymized MRI scans from patients.
 Medical Transcripts: Leverage existing datasets like MTSamples or implement mechanisms for secure medical record access with patient consent.
@@ -81,7 +90,8 @@ Location data: Obtained from the ipinfo.io API, which returns JSON data includin
 Knowledge Bases:
 Develop or utilize existing medical knowledge bases like WikiDoc and WikiPatient.
 Ensure proper data curation and privacy measures for knowledge base content.
-2. Data Preprocessing:
+
+3. Data Preprocessing:
 MRI Data:
 Preprocessing Techniques:
 Skull stripping (remove non-brain tissue)
