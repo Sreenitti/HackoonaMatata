@@ -1,5 +1,7 @@
 Hackoona Matata- Hackathon
+
 Team Name : CAFFEINE OVERFLOW
+
 Team Members:
 S Shakthi - 21i350
 Sreenitti S  - 21i360
@@ -46,6 +48,7 @@ URL: https://www.jmir.org/2024/1/e53008
 DOI: 10.2196/53008
 
 This study addresses the gap by identifying security and privacy threats and mapping them to the life cycle of various generative AI systems in health care, from data collection through model building to clinical implementation. By identifying and analyzing these threats, we can gain insights into the vulnerabilities and risks associated with the use of generative AI in healthcare. 
+
 Actual Dataset
 For image processing:
     Brain MRI Images for Brain Tumor Detection is used for the classification of         the MRI images as Tumor/ Not Tumor.
