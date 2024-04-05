@@ -63,22 +63,12 @@ For image processing:
 About the dataset:
 300 images for training and 300 images for testing
 
-	For personalized recommendations:
+For personalized recommendations:
 
 Medical Transcripts
-We leveraged the GPT-3.5 model to generate 4.5k QA prompts from the medical transcripts (MTSamples dataset).
+We leveraged the Vicuna model to generate 4.5k QA prompts from the medical transcripts (MTSamples dataset).
 
-WikiDoc
-WikiDoc is a platform for medical professionals to contribute and edit medical content.
-10k QnA prompts.
-
-WikiPatient:
-WikiPatient is a platform for patients to access information and education about diseases.
-5K QnA prompts.
-	For clinic referrals:
-Name : CVS Minute Clinic Data
-Source : https://www.kaggle.com/datasets/johndoggodata/cvs-minute-clinic-data
-	For driver drowsiness detection and nearby hospital finding : 
+For driver drowsiness detection and nearby hospital finding : 
 Nearby hospital locator : Uses an external API to get location data based on the IP address and does not query a static dataset.
 
 Feature Engineering Pipeline
