@@ -57,7 +57,7 @@ DOI: 10.2196/53008
 This study addresses the gap by identifying security and privacy threats and mapping them to the life cycle of various generative AI systems in health care, from data collection through model building to clinical implementation. By identifying and analyzing these threats, we can gain insights into the vulnerabilities and risks associated with the use of generative AI in healthcare. 
 
 Actual Dataset
-For image processing:
+For image processing: https://github.com/sartajbhuvaji/brain-tumor-classification-dataset
     Brain MRI Images for Brain Tumor Detection is used for the classification of the MRI images as Tumor/ Not Tumor.
 		
 About the dataset:
